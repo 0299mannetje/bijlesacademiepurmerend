@@ -13,13 +13,13 @@ mensen bijles gaan geven.
 ## Stap 1 — Open Google Agenda
 
 1. Ga naar [calendar.google.com](https://calendar.google.com) en log in met
-   het Google-account van Bijles Purmerend.
+   het Google-account van Bijlesacademie Purmerend.
 
 ## Stap 2 — Maak een afspraakschema aan
 
 1. Klik linksboven op **Maken** (het knopje met het plusje).
 2. Kies **Afspraakschema** (in het Engels: "Appointment schedule").
-3. Geef het een duidelijke naam, bijvoorbeeld: `Gratis proefles - Bijles Purmerend`.
+3. Geef het een duidelijke naam, bijvoorbeeld: `Gratis proefles - Bijlesacademie Purmerend`.
 
 ## Stap 3 — Stel de duur en beschikbaarheid in
 

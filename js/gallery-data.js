@@ -1,5 +1,5 @@
 // ============================================================================
-// Bijles Purmerend — fotogalerij
+// Bijlesacademie Purmerend — fotogalerij
 //
 // HIER LATER ZELF FOTO'S TOEVOEGEN:
 // 1. Zet je foto's in de map images/gallery/ (zie images/gallery/README.md

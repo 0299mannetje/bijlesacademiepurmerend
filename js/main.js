@@ -1,4 +1,4 @@
-// Bijles Purmerend — gedeeld gedrag voor alle pagina's:
+// Bijlesacademie Purmerend — gedeeld gedrag voor alle pagina's:
 // mobiel menu open/dicht, actieve navlink markeren, footer-jaartal invullen,
 // tarieven-kaartjes voor telefoon opbouwen uit de tarieventabel.
 

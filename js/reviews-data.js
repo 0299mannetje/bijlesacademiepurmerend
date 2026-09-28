@@ -1,5 +1,5 @@
 // ============================================================================
-// Bijles Purmerend — reviews
+// Bijlesacademie Purmerend — reviews
 //
 // HIER LATER ZELF ECHTE REVIEWS TOEVOEGEN:
 // Zodra je een Google Bedrijfsprofiel hebt, kopieer je de tekst van een

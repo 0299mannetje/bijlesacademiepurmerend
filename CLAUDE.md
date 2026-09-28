@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-Static marketing/booking website for "Bijles Purmerend", a Dutch tutoring business. Plain HTML/CSS/vanilla JS — **no framework, no build tools, no package manager, no Node dependency**. Pages must work by opening the `.html` file directly (`file://`), which is why there is no fetch-based templating anywhere.
+Static marketing/booking website for "Bijlesacademie Purmerend", a Dutch tutoring business. Plain HTML/CSS/vanilla JS — **no framework, no build tools, no package manager, no Node dependency**. Pages must work by opening the `.html` file directly (`file://`), which is why there is no fetch-based templating anywhere.
 
 ## Commands
 

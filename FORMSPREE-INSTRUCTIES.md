@@ -7,7 +7,7 @@ je hebt hier geen eigen server voor nodig. Dit hoef je maar één keer op te
 zetten (ca. 3 minuten).
 
 Belangrijk: doe dit met het **e-mailadres van het bedrijf**
-(`bijlespurmerend0299@gmail.com`), zodat aanvragen ook op de juiste plek
+(`bijlesacademiepurmerend@gmail.com`), zodat aanvragen ook op de juiste plek
 binnenkomen.
 
 ## Stap 1 — Open de kant-en-klare link
@@ -18,13 +18,13 @@ bestemmingsadres al kant-en-klaar ingesteld — je hoeft dus niets handmatig
 in te stellen:
 
 ```
-https://formspree.io/claim?name=Scholen+aanvraagformulier&field.organisatie=text,required&field.contactpersoon=text,required&field.email=email,required&field.telefoon=text&field.bericht=text,required,maxlength:2000&action.email=bijlespurmerend0299@gmail.com
+https://formspree.io/claim?name=Scholen+aanvraagformulier&field.organisatie=text,required&field.contactpersoon=text,required&field.email=email,required&field.telefoon=text&field.bericht=text,required,maxlength:2000&action.email=bijlesacademiepurmerend@gmail.com
 ```
 
 ## Stap 2 — Claim het formulier
 
 1. Formspree vraagt je in te loggen. Log in met
-   `bijlespurmerend0299@gmail.com` (of maak een gratis account aan als dat
+   `bijlesacademiepurmerend@gmail.com` (of maak een gratis account aan als dat
    adres nog geen Formspree-account heeft).
 2. Na het inloggen "claimt" Formspree het formulier automatisch voor jouw
    account — met de velden en het bestemmingsadres al goed ingesteld.
@@ -64,7 +64,7 @@ een kapotte of stille fout.
 1. Open `scholen.html` in je browser en vul het formulier in met test-
    gegevens, en klik op **Versturen**.
 2. Formspree stuurt bij de **allereerste** binnenkomende aanvraag een
-   verificatiemail naar `bijlespurmerend0299@gmail.com` met een bevestigings-
+   verificatiemail naar `bijlesacademiepurmerend@gmail.com` met een bevestigings-
    link. Klik op die link — pas daarna komen aanvragen automatisch door.
 3. Verstuur daarna nog een tweede test-aanvraag en controleer of die nu wel
    direct in de inbox verschijnt (check ook de spam-map bij de eerste keer).
@@ -73,7 +73,7 @@ een kapotte of stille fout.
 
 1. Vul het formulier op de live site nogmaals in en verstuur het.
 2. Controleer of je de e-mail ontvangt, met als onderwerp "Nieuwe aanvraag
-   via scholen.html — Bijles Purmerend" en alle ingevulde velden erin.
+   via scholen.html — Bijlesacademie Purmerend" en alle ingevulde velden erin.
 3. Verwijder eventuele test-aanvragen desgewenst uit je Formspree-dashboard.
 
 ## Goed om te weten

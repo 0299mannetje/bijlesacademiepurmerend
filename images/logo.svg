@@ -1,8 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Bijles Purmerend logo">
-  <circle cx="32" cy="32" r="32" fill="#0F6E5C"/>
-  <path d="M22 29 Q32 35 42 29 L42 32 Q32 38 22 32 Z" fill="#FAF9F6" opacity="0.9"/>
-  <polygon points="32,18 49,27 32,36 15,27" fill="#FAF9F6"/>
-  <circle cx="32" cy="27" r="2" fill="#F2A93B"/>
-  <path d="M32 28 C 37 31 39 36 38 42" stroke="#F2A93B" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-  <circle cx="38" cy="43.5" r="2.6" fill="#F2A93B"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 140" width="600" height="140" role="img" aria-label="Bijlesacademie Purmerend logo">
+  <!-- Icoon: open boek, afstudeerhoed en vinkje -->
+  <path d="M18 44 L122 44 L122 102 L18 102 Z" fill="#A9C99A"/>
+  <path d="M20 72 Q45 60 70 78 Q95 60 120 72 L120 102 Q95 92 70 106 Q45 92 20 102 Z" fill="#FFFFFF"/>
+  <path d="M10 52 L10 110 Q40 100 70 116 Q100 100 130 110 L130 52" fill="none" stroke="#0B5A48" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M42 40 L42 62 Q70 74 98 62 L98 40 Z" fill="#0B5A48"/>
+  <polygon points="70,8 128,30 70,52 12,30" fill="#0B5A48"/>
+  <path d="M70 30 L38 38 L38 60" fill="none" stroke="#F26A1B" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="34,58 42,58 46,78 30,78" fill="#F26A1B"/>
+  <path d="M64 84 L80 102 L126 60" fill="none" stroke="#FFFFFF" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M64 84 L80 102 L126 60" fill="none" stroke="#F26A1B" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Naam -->
+  <text x="158" y="64" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="56" fill="#0B5A48" textLength="405" lengthAdjust="spacingAndGlyphs">Bijlesacademie</text>
+  <text x="158" y="126" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="56" fill="#F26A1B">Purmerend</text>
 </svg>

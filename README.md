@@ -1,6 +1,6 @@
-# Bijles Purmerend — website
+# Bijlesacademie Purmerend — website
 
-Statische website voor Bijles Purmerend: geen framework, geen build-tools,
+Statische website voor Bijlesacademie Purmerend: geen framework, geen build-tools,
 geen server nodig. Gewoon HTML, CSS en vanilla JavaScript.
 
 ## Bestanden
