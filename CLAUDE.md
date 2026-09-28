@@ -44,7 +44,7 @@ Responsive breakpoints: mobile nav collapses to a hamburger (`.nav-toggle`) unde
 
 ### Placeholder token convention
 
-Contact/business info that isn't known yet is represented as literal bracketed tokens, used verbatim across every page's footer plus a few page-specific spots: `[TELEFOONNUMMER]`, `[EMAIL]`, `[WHATSAPP LINK]`, `[GOOGLE_BUSINESS_PROFIEL_LINK]`, `[GOOGLE_AGENDA_EMBED_URL]`. `SETUP.md` has the authoritative list of which files contain which token. Keep new placeholders (if ever needed) in this same bracketed style so they stay greppable (`grep -r "\["`).
+Contact/business info that isn't known yet is represented as literal bracketed tokens, used verbatim across every page's footer plus a few page-specific spots: `[TELEFOONNUMMER]`, `[EMAIL]`, `[WHATSAPP LINK]`, `[GOOGLE_AGENDA_EMBED_URL]`. `SETUP.md` has the authoritative list of which files contain which token. Keep new placeholders (if ever needed) in this same bracketed style so they stay greppable (`grep -r "\["`).
 
 ### Content source of truth
 

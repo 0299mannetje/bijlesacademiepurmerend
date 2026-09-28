@@ -14,7 +14,6 @@ pagina, en soms nog een extra plek):
 | `[TELEFOONNUMMER]` | Footer van elke pagina, `contact.html`, `proefles-inplannen.html` | Je telefoonnummer, bv. `06 12345678` |
 | `[EMAIL]` | Footer van elke pagina, `contact.html`, `proefles-inplannen.html` | Je e-mailadres, bv. je Google Workspace-adres |
 | `[WHATSAPP LINK]` | Footer van elke pagina, `contact.html`, `proefles-inplannen.html` | Een `wa.me`-link, bv. `https://wa.me/31612345678` |
-| `[GOOGLE_BUSINESS_PROFIEL_LINK]` | Footer van elke pagina | De link naar je Google Bedrijfsprofiel (zodra aangemaakt) |
 | `[GOOGLE_AGENDA_EMBED_URL]` | `proefles-inplannen.html` (in het `data-src`-attribuut van de iframe) | De embed-URL van je Google Agenda-afspraakschema — zie `GOOGLE-AGENDA-INSTRUCTIES.md` |
 | `[FORMSPREE_ENDPOINT]` | `scholen.html` (in het `action`-attribuut van het contactformulier) | Je Formspree-endpoint-URL — zie `FORMSPREE-INSTRUCTIES.md` |
 
