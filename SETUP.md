@@ -45,19 +45,19 @@ werkt zonder server of installatie.
 ## 6. Publiceren via GitHub Pages
 
 1. Maak een gratis account aan op [github.com](https://github.com) (indien nog niet gedaan).
-2. Maak een nieuwe, lege repository aan (zonder README/gitignore aan te vinken), bv. genaamd `bijles-purmerend-website`.
+2. Maak een nieuwe, lege repository aan (zonder README/gitignore aan te vinken), bv. genaamd `bijlesacademiepurmerend`.
 3. Open een terminal in deze projectmap en voer uit:
    ```
    git init
    git add .
    git commit -m "Eerste versie van de website"
    git branch -M main
-   git remote add origin https://github.com/<jouw-gebruikersnaam>/bijles-purmerend-website.git
+   git remote add origin https://github.com/<jouw-gebruikersnaam>/bijlesacademiepurmerend.git
    git push -u origin main
    ```
 4. Ga op GitHub naar je repository → **Settings** → **Pages**.
 5. Zet bij **Source** op **Deploy from a branch**, kies branch `main` en map `/ (root)`. Klik **Save**.
-6. Na 1-2 minuten is de site live op `https://<jouw-gebruikersnaam>.github.io/bijles-purmerend-website/`.
+6. Na 1-2 minuten is de site live op `https://<jouw-gebruikersnaam>.github.io/bijlesacademiepurmerend/`.
 7. (Optioneel, later) Koppel je eigen domeinnaam via dezelfde Pages-instellingen (**Custom domain**) en stel een CNAME-record in bij je domeinregistrar.
 
 ## 7. Na het publiceren nog even checken
