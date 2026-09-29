@@ -109,6 +109,16 @@ function renderPricingCards() {
       return th.textContent.trim();
     });
 
+  // "prijs per les" uit de eerste kolomkop, als label onder elke kaarttitel
+  var unitEl = table.querySelector("thead th .pricing-unit");
+  var unitText = unitEl ? unitEl.textContent.replace("·", "").trim() : "";
+  var unitHtml = unitText
+    ? '<p class="pricing-card-unit">' +
+      unitText.charAt(0).toUpperCase() +
+      unitText.slice(1) +
+      "</p>"
+    : "";
+
   var rows = Array.prototype.slice.call(table.querySelectorAll("tbody tr"));
 
   cardsWrap.innerHTML = lessonTypes
@@ -136,7 +146,9 @@ function renderPricingCards() {
       return (
         '<div class="card"><h3>' +
         lessonType +
-        '</h3><ul class="pricing-list">' +
+        "</h3>" +
+        unitHtml +
+        '<ul class="pricing-list">' +
         itemsHtml +
         "</ul></div>"
       );

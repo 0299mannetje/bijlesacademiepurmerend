@@ -205,6 +205,32 @@ h3 {
   .grid--2 {
     grid-template-columns: 1fr;
   }
+
+  /* Vijf redenen op telefoon: compacte kaartjes met icoon links naast de tekst */
+  #waarom-ons .grid--3 {
+    gap: var(--space-3);
+  }
+  #waarom-ons .grid--3 > .card {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: var(--space-3);
+    align-items: start;
+    padding: var(--space-3) var(--space-4);
+  }
+  #waarom-ons .grid--3 > .card .card-icon {
+    grid-row: span 2;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin-bottom: 0;
+  }
+  #waarom-ons .grid--3 > .card h3 {
+    font-size: 1.05rem;
+    margin-bottom: var(--space-1);
+  }
+  #waarom-ons .grid--3 > .card p {
+    font-size: 0.95rem;
+    margin-bottom: 0;
+  }
 }
 
 .lesmomenten-grid {
@@ -762,6 +788,19 @@ h3 {
 .pricing-table thead th {
   background: var(--color-primary);
   color: #fff;
+}
+
+.pricing-unit {
+  font-weight: 600;
+  opacity: 0.85;
+  white-space: nowrap;
+}
+
+.pricing-card-unit {
+  margin: calc(-1 * var(--space-2)) 0 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-primary);
 }
 
 .pricing-table tbody tr:last-child td {
