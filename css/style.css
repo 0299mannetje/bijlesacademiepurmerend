@@ -206,30 +206,32 @@ h3 {
     grid-template-columns: 1fr;
   }
 
-  /* Vijf redenen op telefoon: compacte kaartjes met icoon links naast de tekst */
-  #waarom-ons .grid--3 {
+  /* Kaartjes met icoon op telefoon: compact, met icoon links naast de tekst */
+  .grid:has(> .card > .card-icon) {
     gap: var(--space-3);
   }
-  #waarom-ons .grid--3 > .card {
+  .card:has(> .card-icon) {
     display: grid;
     grid-template-columns: auto 1fr;
     column-gap: var(--space-3);
     align-items: start;
     padding: var(--space-3) var(--space-4);
+    text-align: left;
   }
-  #waarom-ons .grid--3 > .card .card-icon {
+  .card:has(> .card-icon) > .card-icon {
     grid-row: span 2;
     font-size: 1.5rem;
     line-height: 1.2;
     margin-bottom: 0;
   }
-  #waarom-ons .grid--3 > .card h3 {
+  .card:has(> .card-icon) > h3 {
     font-size: 1.05rem;
     margin-bottom: var(--space-1);
   }
-  #waarom-ons .grid--3 > .card p {
+  .card:has(> .card-icon) > p {
     font-size: 0.95rem;
     margin-bottom: 0;
+    overflow-wrap: anywhere;
   }
 }
 
